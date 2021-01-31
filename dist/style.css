@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+ul.wyniki {
+  width: 100%;
+}
+
+ul.wyniki li {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 5vh;
+  border-top: 2px solid black;
+}
+
+ul.wyniki li h2 {
+  width: 100px;
+  text-align: center;
+}
+
+ul.wyniki li button {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 9999px;
+  border: none;
+  background-color: #71a7ee;
+}
+
+ul.wyniki li button:hover {
+  background-color: #4673ad;
+}
+
+form.addBook {
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-left: 10%;
+  background-color: #d2f7fc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form.addBook div {
+  margin: 0 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form.addBook div input {
+  margin: 0 2%;
+  height: 3vh;
+}
+
+form.addBook div h2 {
+  text-align: center;
+}
+
+form.addBook button.add {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 9999px;
+  border: none;
+  background-color: #71a7ee;
+}
+
+form.addBook button.add:hover {
+  background-color: #4673ad;
+}
+
+div.tablica {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 5vh;
+  background-color: #71a7ee;
+}
+
+div.tablica h2 {
+  width: 100px;
+  text-align: center;
+}
+
+div.options {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #d2f7fc;
+  padding-bottom: 1vh;
+}
+
+div.options h2 {
+  text-align: center;
+}
+
+div.options form.search button {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 9999px;
+  border: none;
+  background-color: #71a7ee;
+}
+
+div.options form.search button:hover {
+  background-color: #4673ad;
+}
+
+h1.ile {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+}
+/*# sourceMappingURL=style.css.map */

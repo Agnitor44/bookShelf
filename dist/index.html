@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+                <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+        <form class="addBook">
+          
+            <div>
+                <h2>Nazwa</h2>
+                <input class="name" type="text">
+            </div>
+            <div>
+                <h2>Kategoria</h2>
+                <select name="ganres" class="ganres">
+                    <option value="sci-fi">sci-fi</option>
+                    <option value="criminal">criminal</option>
+                    <option value="fantasy">fantasy</option>
+                    <option value="drama">drama</option>
+                    <option value="science">science</option>
+                </select>
+            </div>
+        
+            <div>
+                <h2>Autor</h2>
+                <input class = 'author' type="text">
+            </div>
+           
+            <div>
+                <h2>Punkty</h2>
+                <input class = 'priority' type="number" max="5">
+            </div>
+           
+            <button class="add">Dodaj</button>
+        </form>
+       
+        <div class = 'options'>
+            <div>
+                <h2>Filtruj</h2>
+            <select class="filtr">
+                
+                <option value=""></option>
+                <option value="author">author</option>
+                <option value="score">priority</option>
+                <option value="ganre">ganre</option>
+            </select>
+        </div>
+        <div>
+            <h2>Wyszukaj</h2>
+            <form class="search">
+                <select class="searchSelect"> 
+                     <option value=""></option>
+                    <option value="score">priorytet</option>
+                    <option value="ganre">gatunek</option>
+                    <option value="author">autor</option>    
+                </select>
+                <input type="text" class="searchInput">
+                <button>Wyszukaj</button>
+            </form>
+        </div>
+        </div>
+       
+        <h1 class="ile"></h1>
+        <div class="tablica"><h2>Nazwa</h2> <h2>Autor</h2> <h2>Kategoria</h2> <h2>punkty</h2><h2>usuń</h2><h2>edytuj</h2></div>
+        <ul class="wyniki">
+
+        </ul>
+    </div>
+ <script src="./main.js"></script>
+</body>
+</html>
