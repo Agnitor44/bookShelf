@@ -7,3 +7,8 @@ I also tried webpack to wrap js file, which happened to be bigger than i expecte
 
 
 ![alt text](https://cdn.discordapp.com/attachments/630797359252504643/813249678937686039/unknown.png)
+
+
+You can try my project on https://bookshelfrecruitment.netlify.app/
+
+Thank you for visiting my project!
